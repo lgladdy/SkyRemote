@@ -38,9 +38,11 @@ Please excuse any undocumented functions, I'm still figuring all this out.
 You'll be prompted for any required arguments.
 
 You can view the full, complete list of endpoints which are exposed by this using the command:
+    
     host details 0
 
 You can then send a raw command with:
+    
     host send 0 SkyControl [SkyPlay|SkyRC2|SkyCM2] <command>
 
 More information on the Sky DNLA Remote service is on my blog, at [www.gladdy.co.uk/blog](http://www.gladdy.co.uk/blog)
