@@ -15,7 +15,13 @@ This DNLA server exposes 5 control endpoints that can be used to control the Sky
 
 Miranda is a UPnP browser that lets you browse a UPnP client, and while the Sky+HD box requires a few specific changes to work with it, it pretty much does the job of browsing available methods, and lets you send things to it.
 
-SkyRemote makes this a bit easier, by completely automating the detection of a Sky+HD box and loading the relative xml files to provide the data, and giving a simple "control" command which allows you to perform any of the "SkyPlay" control endpoint methods. These are currently:
+SkyRemote makes this a bit easier, by completely automating the detection of a Sky+HD box and loading the relative xml files to provide the data, and giving a simple "control" command which allows you to perform any of the "SkyPlay" control endpoint methods.
+
+To run the script, you'll need python installed. You already have this if you're on a mac, and probably on linux too. Then you can run:
+
+    python skyRemote.py
+
+These available "control" commands are currently:
 
 * `GetMediaInfo_Ext`
 * `X_NDS_SetUserPIN` Send the user's PIN (Used to unlock pre-watershed channels and recorded programming)
@@ -37,7 +43,14 @@ SkyRemote makes this a bit easier, by completely automating the detection of a S
 Please excuse any undocumented functions, I'm still figuring all this out.
 You'll be prompted for any required arguments.
 
-You can view the full, complete list of endpoints which are exposed by this using the command:
+So, for example, if you wanted to send a "Pause" command, you can just run:
+
+    control pause
+
+Advanced
+------------------------------------------------
+
+If you understnad these things, you can view the full, complete list of endpoints which are exposed by this using the command:
     
     host details 0
 
