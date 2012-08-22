@@ -62,4 +62,4 @@ More information on the Sky DNLA Remote service is on my blog, at [www.gladdy.co
 
 Help
 ------------------------------------------------
-Check the [[FAQ]]
+Check the [https://github.com/lgladdy/SkyRemote/wiki/FAQ](FAQ on the Wiki)
