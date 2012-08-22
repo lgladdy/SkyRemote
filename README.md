@@ -59,3 +59,7 @@ You can then send a raw command with:
     host send 0 SkyControl [SkyPlay|SkyRC2|SkyCM2] <command>
 
 More information on the Sky DNLA Remote service is on my blog, at [www.gladdy.co.uk/blog](http://www.gladdy.co.uk/blog)
+
+Help
+------------------------------------------------
+Check the [[FAQ]]
